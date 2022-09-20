@@ -1,19 +1,14 @@
-import java.util.Scanner;
+import java.util.*
 
-public class Cookies {
-
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter how many cookies you ate: ");
-
-        int cookieCount = sc.nextInt();
-
-        int servingSize = 40/10;
-        int caloriesPerCookie = 300/servingSize;
-        int totalCalories = cookieCount * caloriesPerCookie;
-
-        System.out.println("Total calories consumed: " + totalCalories);
+object Cookies {
+    @JvmStatic
+    fun main(args: Array<String>) {
+        val sc = Scanner(System.`in`)
+        print("Enter how many cookies you ate: ")
+        val cookieCount = sc.nextInt()
+        val servingSize = 40 / 10
+        val caloriesPerCookie = 300 / servingSize
+        val totalCalories = cookieCount * caloriesPerCookie
+        println("Total calories consumed: $totalCalories")
     }
 }
