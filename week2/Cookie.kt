@@ -1,8 +1,5 @@
-import java.util.*
-
-object Cookies {
-    @JvmStatic
-    fun main(args: Array<String>) {
+import java.util.Scanner
+    fun main() {
         val sc = Scanner(System.`in`)
         print("Enter how many cookies you ate: ")
         val cookieCount = sc.nextInt()
@@ -11,4 +8,3 @@ object Cookies {
         val totalCalories = cookieCount * caloriesPerCookie
         println("Total calories consumed: $totalCalories")
     }
-}
