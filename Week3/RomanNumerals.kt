@@ -1,7 +1,8 @@
 fun main(){
+        //Here user will enter a number between 1-10
         print("Enter a number between 1-10 >> ")
         val number = Integer.valueOf(readLine())
-
+//When in range it will display the corresponding numeral
     if (number== 1){
         print("The roman value is I ")
     }
@@ -35,3 +36,4 @@ fun main(){
     else
         print("you number is out of range")
 }
+//if it is out the range is will print out of range
