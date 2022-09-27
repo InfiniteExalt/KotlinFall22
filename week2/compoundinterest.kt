@@ -1,22 +1,13 @@
-import java.util.*
-
-object CompoundInterest {
-    @JvmStatic
-    fun main(args: Array<String>) {
-        val principle: Double
-        val rate: Double
-        val time: Double
-        val compound_interest: Double
-        println("Required packages have been imported")
-        val my_scanner = Scanner(System.`in`)
-        println("A Scanner object has been defined ")
-        print("Enter a Principle number : ")
-        principle = my_scanner.nextInt().toDouble()
-        print("Enter Interest rate : ")
-        rate = my_scanner.nextInt().toDouble()
-        print("Enter a Time period in years : ")
-        time = my_scanner.nextInt().toDouble()
-        compound_interest = principle * Math.pow(1 + rate / 100, time) - principle
-        println("The Compound Interest is : $compound_interest")
-    }
+import kotlin.math.pow
+fun main(){
+    println("What is the principal>>")
+    val principal = readLine()!!.toDouble()
+    println("What is the Interest Rate>>")
+    val rate = readLine()!!.toDouble()
+    println("How often is it compounded>>")
+    val compound = readLine()!!.toDouble()
+    println("How many years of interest>>")
+    val interest = readLine()!!.toDouble()
+    println("The balance after $interest years: ")
+    println(principal*(1+rate/compound).pow(compound*interest))
 }
