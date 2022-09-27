@@ -1,8 +1,5 @@
 import java.util.*
-
-object RaceTime {
-    @JvmStatic
-    fun main(args: Array<String>) {
+fun main() {
         //Runner1 info
         val scan = Scanner(System.`in`)
         println("Enter name and time:")
@@ -44,4 +41,3 @@ object RaceTime {
             )
         }
     }
-}
