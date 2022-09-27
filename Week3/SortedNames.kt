@@ -1,19 +1,13 @@
 import java.util.*
-
-object Sort3Strings {
-    @JvmStatic
-    fun main(args: Array<String>) {
+    fun main() {
         val scanner = Scanner(System.`in`)
-        var str1: String
-        var str2: String
-        var str3: String
         //Enter the names
         print("Enter first Name: ")
-        str1 = scanner.next()
+        var str1: String = scanner.next()
         print("Enter second Name: ")
-        str2 = scanner.next()
+        var str2: String = scanner.next()
         print("Enter third Name: ")
-        str3 = scanner.next()
+        var str3: String = scanner.next()
         str1 = str1.lowercase(Locale.getDefault())
         str2 = str2.lowercase(Locale.getDefault())
         str3 = str3.lowercase(Locale.getDefault())
@@ -48,4 +42,3 @@ object Sort3Strings {
             }
         }
     }
-}
