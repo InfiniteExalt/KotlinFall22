@@ -1,3 +1,8 @@
+//Kenneth Benitez
+//Unit 4 Assignment 6 
+//ESP Game
+//09-29-2022
+
 fun main(){
     var correct = 0
     val colors = arrayOf("Red", "Green", "Blue", "Orange", "Yellow")
