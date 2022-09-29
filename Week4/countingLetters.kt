@@ -1,3 +1,7 @@
+//Kenneth Benitez
+//Unit 4 Assignment2 
+//Letter Counter
+//09-29-2022
 fun main() {
         println("Enter a String>> ")
         val text=readLine()!!
