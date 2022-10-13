@@ -2,8 +2,8 @@
 //Assignment 1.3
 //Finnd the error
 fun main() {
-    val width = 5
-    val height = 5
-    val area = width + height
+    var width = 5
+    var height = 5
+    var area = width * height
     print(area)
 }
